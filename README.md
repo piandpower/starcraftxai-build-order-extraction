@@ -9,4 +9,4 @@ s2protocol is used.
 
 ## Clustering Build Orders
 
-![cluster](buildordercluster.jpg)
+![cluster](cluster.jpg)
