@@ -1,1 +1,50 @@
-theme: jekyll-theme-minimal
+logo: 
+title: B-Boy Seiok Production
+description: > 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/" 
+url: "http://bboyseiok.com" 
+img: "/assets/img/"
+
+# Banner settings
+video: bboyseiok 
+banner-title:
+banner-desc: 
+
+# Author settings
+author-pic: face.ori.jpg 
+author-name: B-Boy Seiok 
+about-author: Pianist, B-Boy, street artist 
+email: bboyseiok@deepest.ai 
+phone: +82 (0)10 9107 6599 
+website: http://bboyseiok.com 
+
+# Social link
+google_url:  
+twitter_url:   
+instagram_url: 
+pinterest_url: 
+dribbble_url: 
+facebook_url:  
+
+# Disqus
+discus_identifier: bboyseiok-com 
+
+# Tracker
+analytics: UA-109838536-1
+
+# Paginate
+paginate: 12
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
