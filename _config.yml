@@ -7,7 +7,7 @@ description: >
 permalink: ':title/'
 baseurl: "http://bboyseiok.com/" 
 url: "http://bboyseiok.com" 
-img: "/assets/img/"
+img: "https://bboyseiok.com/assets/img/"
 
 # Banner settings
 video: bboyseiok 
