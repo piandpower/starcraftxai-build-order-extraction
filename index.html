@@ -17,3 +17,12 @@ s2protocol is used.
 ## Clustering Build Orders
 
 ![cluster](cluster.jpg)
+
+$$
+& \mathbf g^u = \sigma(\mathbf W^u * \mathbf h_{t-1} + \mathbf I^u * \x_t) \\
+& \mathbf g^f = \sigma(\mathbf W^f * \mathbf h_{t-1} + \mathbf I^f * \x_t) \\
+& \mathbf g^o = \sigma(\mathbf W^o * \mathbf h_{t-1} + \mathbf I^o * \x_t) \\
+& \mathbf g^c = \tanh(\mathbf W^c * \mathbf h_{t-1} + \mathbf I^c * \x_t) \\
+& \mathbf m_t = \mathbf g^f \odot \mathbf +  \mathbf g^u \odot \mathbf g^c \\
+& \mathbf h_t = \tanh(\mathbf g^o \odot \mathbf m_{t-1}) 
+$$
