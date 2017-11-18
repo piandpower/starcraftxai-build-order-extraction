@@ -37,7 +37,7 @@ github:
   is_project_page: true
   zip_url: https://hello.com
   tar_url: https://hello.com
-  repository_url: https://hello.com
+  repository_url: https://github.com/bboyseiok/starcraftxai-build-order-extraction
 
 # Disqus
 discus_identifier: bboyseiok-com 
