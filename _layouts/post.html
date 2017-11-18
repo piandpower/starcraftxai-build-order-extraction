@@ -6,6 +6,7 @@ layout: default
 <main class="post_content">
   <article class="post">
     <header>
+      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       <div class="post_image">
         <img src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
       </div>
@@ -24,7 +25,7 @@ layout: default
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
-      
+
       {{page.content | markdownify}}
 
       This project is maintained by <a href="{{site.github.author_url}}">bboyseiok</a>
