@@ -31,10 +31,12 @@ dribbble_url:
 facebook_url:  
 
 
-show_downloads: false
+show_downloads: true
 
 github:
   is_project_page: true
+  repository_name:
+  project_tagline: Extended project from Workshop
   zip_url: https://hello.com
   tar_url: https://hello.com
   repository_url: https://github.com/bboyseiok/starcraftxai-build-order-extraction
