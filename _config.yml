@@ -30,10 +30,11 @@ pinterest_url:
 dribbble_url: 
 facebook_url:  
 
-is_project_page: true
+
 show_downloads: true
 
 github:
+  is_project_page: true
   zip_url: https://hello.com
   tar_url: https://hello.com
   repository_url: https://hello.com
