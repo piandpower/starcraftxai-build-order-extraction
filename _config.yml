@@ -37,8 +37,8 @@ github:
   is_project_page: true
   repository_name:
   project_tagline: Extended project from Workshop
-  zip_url: https://hello.com
-  tar_url: https://hello.com
+  zip_url: https://github.com/bboyseiok/starcraftxai-build-order-extraction/archive/master.zip
+  tar_url: https://github.com/bboyseiok/starcraftxai-build-order-extraction/archive/master.tar.gz
   repository_url: https://github.com/bboyseiok/starcraftxai-build-order-extraction
   author_url: https://github.com/bboyseiok
 
