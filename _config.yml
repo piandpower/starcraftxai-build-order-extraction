@@ -30,6 +30,11 @@ pinterest_url:
 dribbble_url: 
 facebook_url:  
 
+github:
+  zip_url: https://hello.com
+  tar_url: https://hello.com
+  repository_url: https://hello.com
+
 # Disqus
 discus_identifier: bboyseiok-com 
 
