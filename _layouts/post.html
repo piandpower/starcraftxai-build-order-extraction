@@ -15,7 +15,7 @@ layout: default
       </div>
 
     </header> <!-- End Header -->
-    
+
     <section class="page-header">
       <h1 class="project-name">{{ page.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.github.project_tagline }}</h2>
@@ -32,7 +32,9 @@ layout: default
 
       {{page.content | markdownify}}
 
-      This project is maintained by <a href="{{site.github.author_url}}">bboyseiok</a>
+      <section class="page-header">
+     <h3 class="project-author"> This project is maintained by <a href="{{site.github.author_url}}">bboyseiok</a> </h3>
+      </section>
     </div>
     
     <div class="post_wrapper">
